@@ -1,4 +1,5 @@
-import random, time
+import random
+from time import sleep
 
 history = []
 market_rate = []
@@ -20,7 +21,7 @@ while True:
 
     counter += 1
 
-    # time.sleep(2)
+    sleep(2)
     if a == 6:
         break
 print("----------------")
