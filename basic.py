@@ -64,6 +64,8 @@ bol = True
 while bol:
     print('---')
     market = randint(1, 7)
+    # market = random.randrange(steps,345,steps)
+
     market_rate.append(market)
     print("Current Market Rate:  ", market)
 
@@ -76,7 +78,6 @@ while bol:
 
     counter += 1
     sleep(2)
-    # market = random.randrange(steps,345,steps)
     if price == market:
         print("Now its time to Sell: Press Y to sell N to No:  ")
         a = str(input())
