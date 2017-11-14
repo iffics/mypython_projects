@@ -35,9 +35,9 @@ wrong = 0
 for state in states:
     state = choice(states)
     print("What is the capital of " + state + " ?")
-    ans = str(input()).capitalize()
+    user_input = str(input()).capitalize()
 
-    if state_capitals[state] == ans:
+    if state_capitals[state] == user_input:
         print("Correct! Great job ")
         score += 5
         correct_ans += 1
@@ -63,8 +63,8 @@ print("--------------------")
 # while q < len(states):
 #     qst = random.choice(states)
 #     print("What is the capital of " + qst + " ?")
-#     ans = str(input()).capitalize()
-#     if state_capitals[qst] == ans:
+#     user_input = str(input()).capitalize()
+#     if state_capitals[qst] == user_input:
 #         print("Correct! ")
 #         score += 5
 #
