@@ -144,16 +144,16 @@ def check_for_vowel_word(word: str):
 
 # A SIMPLE FUNCTION WHICH TAKES A LIST RETURNS VOWEL WORDS
 
-def filter_vowels(list: list):
+def filter_vowels(word_list: list):
     """
     A simple function which takes a list of words
     filters them and returns a list of words which
     starts from vowels.
-    :param list:
+    :param word_list:
     :return: list []
     """
     vowel_words = []
-    for word in list:
+    for word in word_list:
         if check_for_vowel_word(word):
             vowel_words.append(word)
     return vowel_words
