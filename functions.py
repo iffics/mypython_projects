@@ -4,9 +4,7 @@
 #  FUNCTION TAKES INPUT AND DOES SOME WORK AND GIVES US THE OUTPUT
 
 
-
 # simple function which goes not take any argument
-
 def greeting():
     """
     A simple function which prints a single line.
